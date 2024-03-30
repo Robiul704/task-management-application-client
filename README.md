@@ -1,8 +1,8 @@
 
 
 ## [Live Link](https://task-management704.netlify.app)
-## [Github-Client-SiTe](https://github.com/Robiul704/task-management-application-client)
-## [Github-Site Link](https://github.com/Robiul704/task-management-application-server)
+## [Github-Client-Site Link](https://github.com/Robiul704/task-management-application-client)
+## [Github-Server-Site Link](https://github.com/Robiul704/task-management-application-server)
 
 
 # Task Manager Application
