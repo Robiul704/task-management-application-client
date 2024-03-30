@@ -6,7 +6,7 @@ import Status from "./Components/Status";
 
 const Root = () => {
     return (
-        <div className="bg-gradient-to-r from-[#1e1b4b] via-indigo-800 to-[#1e1b4b]bg-[#031321]">
+        <div className="bg-gradient-to-r from-[#1e1b4b] via-indigo-800 to-[#1e1b4b]bg-[#031321]  min-w-7xl mx-auto">
             <Status></Status>
            <CreateTask></CreateTask>
            <ManageTask></ManageTask>

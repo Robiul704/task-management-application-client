@@ -47,15 +47,15 @@ const AxiosPublic=UseAxiosPublic()
         };
     return (
 
-       <div>
-        <div className="flex justify-center gap-5 items-center">
+       <div className="mx-auto">
+        <div className="flex justify-center gap-5 mx-auto items-center">
             <div>
-            <h6 className="text-[#828282] text-center text-sm font-bold ">Search by Priority</h6>
-              <div className="flex flex-row">
+            <h6 className="text-white text-center text-sm font-bold ">Search by Priority</h6>
+              <div className="flex mt-2 flex-row">
                 <input
                   type="text"
                   placeholder="Search by priority"
-                  className="w-3/5 rounded-l-lg placeholder-[#828282] p-2 sm:w-2/3 text-sm bg-[#ff9f0d1a]"
+                  className="w-3/5   rounded-l-lg placeholder-white p-2 sm:w-2/3 text-sm bg-[#ff9f0d1a]"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
@@ -69,10 +69,10 @@ const AxiosPublic=UseAxiosPublic()
             </div>
            
             <div className=" ">
-            <h6 className="text-[#828282] text-center text-sm font-bold">Filter by Category</h6>
+            <h6 className=" text-white text-center text-sm font-bold">Filter by Category</h6>
 
               <select
-                className="text-[#828282] border p-2 rounded-lg mt-2"
+                className="text-white border p-2 rounded-lg mt-2"
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
               > 
@@ -86,7 +86,7 @@ const AxiosPublic=UseAxiosPublic()
             </div>
           </div>
          <div className=" ">
-          <div className=" grid lg:grid-cols-4 gap-3 h-max py-10">
+          <div className=" grid lg:grid-cols-4 mx-auto gap-3 h-max py-10">
 
             {filteredByCategory.map((allItem, index) => (
               <div className="h-[300px]" key={allItem._id}>

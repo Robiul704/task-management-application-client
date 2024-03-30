@@ -1,8 +1,26 @@
-# React + Vite
+- **Live Link:**[https://task-management704.netlify.app]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Task Manager Application
+
+This repository contains the source code for a task management application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application allows users to manage their tasks by providing features such as creating, updating, deleting, prioritizing, and categorizing tasks.
+
+## Features
+
+- **CRUD Operations:** Users can create, read, update, and delete tasks.
+- **Task Prioritization and Categorization:** Users can assign priority levels and categories to tasks. Tasks are displayed according to their priority levels.
+- **Dynamic User Interface:** User-friendly interface developed using React.js reflects real-time changes and provides a seamless user experience.
+- **Task Interactions:** Users can add, view, edit, delete, categorize, and prioritize tasks.
+- **Filtering and Sorting:** Features to filter and sort tasks based on different criteria such as priority and category are implemented.
+
+
+
+- **Live Link:**[https://task-management704.netlify.app]
+
+
+
+
+
+
+

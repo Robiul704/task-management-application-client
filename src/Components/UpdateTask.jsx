@@ -34,7 +34,7 @@ AxiosPublic.patch(`/task/${task._id}`,body)
     return (
         <div >
              <div className="min-h-screen text-black flex items-center justify-center p-10">
-      <div className="bg-emerald-400 p-8 rounded-lg shadow-xl w-96">
+      <div className="bg-emerald-400 p-8 rounded-lg shadow-xl w-[900px]">
         <h2 className="text-2xl font-bold mb-4 text-black">Update task</h2>
         <form onSubmit={handleupdate} >
           <label className="block font-bold mb-1">
@@ -78,7 +78,7 @@ AxiosPublic.patch(`/task/${task._id}`,body)
               <option disabled>Choose</option>
                  <option>Low</option>
                     <option>Medium</option>
-                    <option>Heigh</option>
+                    <option>High</option>
            </select>
 
         </div>
